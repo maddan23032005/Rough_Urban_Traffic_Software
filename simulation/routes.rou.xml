@@ -1,0 +1,10 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+
+    <flow id="flow_WE" type="car" from="WE1" to="J2E2" begin="0" end="3600" number="200" />
+
+    <flow id="flow_EW" type="car" from="EW1" to="J1E1" begin="0" end="3600" number="200" />
+
+    <flow id="flow_NE" type="car" from="SN_J1" to="J2E2" begin="0" end="3600" number="100" />
+
+</routes>

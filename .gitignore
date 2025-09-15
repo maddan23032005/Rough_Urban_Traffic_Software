@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Trained model files
+*.pth
+
+# SUMO output files
+tripinfo*.xml
